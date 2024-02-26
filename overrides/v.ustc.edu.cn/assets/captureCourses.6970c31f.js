@@ -164,6 +164,9 @@ const E = async (e = {}, t = 1, r = 10) => {
         // modified
         let semesterId;
         switch (e) {
+            case '2023-2':
+                semesterId = '7'
+                break;
             case '2023-1':
                 semesterId = '6'
                 break;
